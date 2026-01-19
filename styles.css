@@ -401,8 +401,10 @@ hr{
     position: absolute;
      background: transparent;
 }
-
-
+/* footer section styles */
+.bg-image{
+    width: 100%;
+}
 
 
 
