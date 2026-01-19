@@ -275,7 +275,6 @@ hr{
     gap: 30px;
 }
 .video-1, .video-2, .video-3{
-    border: 2px solid white;
     border-radius: 30px;
     background-color: #250D44;
 }
@@ -290,7 +289,7 @@ hr{
     font-size: 1.5rem;
     padding-left: 24px;
 }
-.video-1 p{
+.video-1-p{
     line-height: 24px;
     padding-left: 24px;
 }
@@ -300,6 +299,7 @@ hr{
 }
 .clocks{
     display: flex;
+    align-items: center;
 }
 .clocks img{
     width: 20px;
@@ -309,7 +309,7 @@ hr{
     color: #00FF88;
     padding-top: 12px;
     font-weight: 600;
-    padding-right: 6px;
+    padding-left: 6px;
 }
 .video-2 h1{
     padding-top: 24px;
@@ -323,7 +323,6 @@ hr{
     padding-left: 24px;
 }
 .video-3 h1{
-    
     padding-top: 24px;
     padding-bottom: 12px;
     width: 332px;
