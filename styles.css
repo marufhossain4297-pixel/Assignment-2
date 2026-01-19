@@ -333,6 +333,75 @@ hr{
     line-height: 24px;
     padding-left: 24px;
 }
+.host{
+    color: #FFFFFF;
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
+.host-title{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 48.5px;
+}
+.host-title h1{
+    font-size: 3rem;
+}
+.host-section{
+    display: flex;
+    background-color: #351165;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+.host-info{
+    flex-direction: column;
+    align-items: end;
+    width: 896px;
+}
+.host-info h2{
+    padding-top: 48.5px;
+    padding-bottom: 16px;
+    font-size: 2rem;
+}
+.host-info p{
+    line-height: 24px;
+}
+.host-section img{
+    padding: 40px 24px 40px 40px;
+}
+/* .icon{
+    display: flex;
+    gap: 8px;
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 30px;
+    flex-direction: column;
+} */
+.li{
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.x{
+    border: 1px solid white;
+    /* padding: 10px 10px; */
+    /* border-radius: 30px; */
+}
+.i{
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.yu{
+    border: 1px solid white;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.cer{
+    position: absolute;
+     background: transparent;
+}
+
 
 
 
