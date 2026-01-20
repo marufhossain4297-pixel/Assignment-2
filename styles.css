@@ -752,6 +752,49 @@ footer{
         margin-top: 150px;
     }
 
+    @keyframes newPulse{
+  0%{
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 rgba(102,255,153,0.0));
+  }
+  50%{
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 18px rgba(102,255,153,0.65));
+  }
+  100%{
+    transform: scale(1);
+    filter: drop-shadow(0 0 0 rgba(102,255,153,0.0));
+  }
+}
+.btn-2:hover, .btn-3:hover{
+  transform: translateY(-8px) scale(1.02);
+  transition: transform 0.25s ease;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5{
+  box-shadow:
+    0 0 0 2px rgba(255,255,255,0.35),   /* thin white ring */
+    0 0 40px 10px rgba(255,255,255,0.28), /* main glow */
+    0 0 90px 25px rgba(255,255,255,0.18); /* outer glow */
+}
+.box-1, .box-2, .box-3, .box-4, .box-5{
+  animation: softGlow 2.8s ease-in-out infinite;
+}
+
+@keyframes softGlow{
+  0%,100%{
+    box-shadow:
+      0 0 0 2px rgba(255,255,255,0.30),
+      0 0 38px 10px rgba(255,255,255,0.22),
+      0 0 80px 22px rgba(255,255,255,0.14);
+  }
+  50%{
+    box-shadow:
+      0 0 0 2px rgba(255,255,255,0.45),
+      0 0 52px 14px rgba(255,255,255,0.32),
+      0 0 110px 30px rgba(255,255,255,0.22);
+  }
+}
+    
 
 
 }
