@@ -460,7 +460,7 @@ footer{
 }
 .icons{
     text-align: center;
-    /* gap: 40px; */
+    gap: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
