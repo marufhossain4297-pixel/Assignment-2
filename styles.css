@@ -18,6 +18,11 @@ body{
     align-items: center;
     padding: 10px;
 }
+.new-btn{
+    position: relative;
+    left: 670px;
+    top: -113px;
+}
 #tech{
     color: white
 }
@@ -58,6 +63,7 @@ hr{
     background: linear-gradient(to top right,#F7E93F, #FB09B4, #9100F8);
     color: white;
     font-family: "Inter", sans-serif;
+    transition: transform ease 0.3s 0s;
 }
 .burger-menu{
     visibility: hidden;
@@ -121,6 +127,7 @@ hr{
     border-radius: 10000px;
     text-align: center;
     align-items: center;
+    transition: transform ease 0.3s 0s;
 }
 .btn-2 img{
     padding-left: 20px;
@@ -139,14 +146,16 @@ hr{
     margin-left: 8px;
     font-family: "Inter", sans-serif;
     margin-bottom: 101px;
+    transition: transform ease 0.3s 0s;
 }
 .btn-3 img{
     padding-left: 20px;
     padding-right: 8px;
 }
-.btn-1, .btn-2, .btn-3:hover{
+.btn-1:hover, .btn-2:hover, .btn-3:hover{
     cursor: pointer;
     font-family: "Inter", sans-serif;
+    transform: translateY(-10px);
 }
 .about{
     background-color: #1A0B2E;
@@ -159,12 +168,13 @@ hr{
     font-size: 3rem;
     padding-bottom: 16px;
     padding-top: 50px;
+    text-align: center;
 }
 .about-text p{
     color: white;
     line-height: 20px;
     padding-bottom: 40px;
-    margin-left: 200px;
+    margin-left: 250px;
     width: 700px;
     border: 1px solid white;
 }
@@ -215,7 +225,6 @@ hr{
 
 .box-container{
     width: 1200px;
-    border: 1px solid ;
 }
 .box-1{
     grid-area: card-1;
@@ -278,8 +287,6 @@ hr{
 }
 .featured-episodes{
     color: white;
-    padding: 120px 200px;
-    border: 1px solid white;
 }
 .episode-title{
     font-size: 3rem;
@@ -292,8 +299,6 @@ hr{
     cursor: pointer;
 }
 .video{
-    width: 380px;
-    height: 440px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,6 +307,7 @@ hr{
 .video-1, .video-2, .video-3{
     border-radius: 30px;
     background-color: #250D44;
+    width: 380px;
 }
 .yamin, .chikoo-bunty, .motu-patlu{
     border-top-left-radius: 30px;
@@ -455,8 +461,6 @@ footer{
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
-    padding-left: 40px;
-    margin-left: 40px;
 }
 .icons p{
     color: white;
@@ -514,7 +518,8 @@ footer{
     .banner{
         background-image: url(../images/hero-bg.png);
         background-position: center;
-        background-size: contain;
+        background-size: 100% 50%;
+        background-repeat: no-repeat;
     }
     .box-container{
         grid-template-areas: 
