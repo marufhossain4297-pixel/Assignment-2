@@ -304,10 +304,13 @@ hr{
     align-items: center;
     gap: 30px;
 }
+.video-1{
+
+    width: 380px;
+}
 .video-1, .video-2, .video-3{
     border-radius: 30px;
     background-color: #250D44;
-    width: 380px;
 }
 .yamin, .chikoo-bunty, .motu-patlu{
     border-top-left-radius: 30px;
@@ -516,7 +519,7 @@ footer{
         margin: 0 auto;
     }
     .banner{
-        background-image: url(../images/hero-bg.png);
+        background-image: url(images/hero-bg.png);
         background-position: center;
         background-size: 100% 50%;
         background-repeat: no-repeat;
