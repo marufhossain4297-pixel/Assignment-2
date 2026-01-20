@@ -7,6 +7,10 @@
 body{
     background-color: #1A0B2E;
 }
+body p{
+    color: white;
+    opacity: 0.7;
+}
 .inter-fonts{
   font-family: "Inter", sans-serif;
 }
@@ -17,6 +21,8 @@ body{
     background-color: #1A0B2E;
     align-items: center;
     padding: 10px;
+    /* margin-left: 2340px;
+    margin-right: 2340px; */
 }
 .new-btn{
     position: relative;
@@ -175,6 +181,7 @@ hr{
     line-height: 20px;
     padding-bottom: 40px;
     margin: 0 auto;
+    opacity: 0.7;
 }
 .hr1{
     margin-bottom: 80px;
@@ -211,6 +218,7 @@ hr{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 120px;
 }
 .why-section-title h1{
     font-size: 3rem;
@@ -377,10 +385,12 @@ hr{
     padding-left: 200px;
     padding-bottom: 200px;
     margin: 0 auto;
+    /* margin-left: 2340px; */
+    /* margin-right: 2340px; */
 }
 .host-title{
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 40px;margin: 0 auto;
     margin-top: 48.5px;
     margin-top: 120px;
 }
@@ -391,6 +401,7 @@ hr{
     display: flex;
     background-color: #351165;
     border-radius: 40px;
+    margin: 0 auto;
 }
 .host-info{
     flex-direction: column;
@@ -455,8 +466,20 @@ footer{
 .name-of-brand{
     text-align: center;
     padding-top: 120px;
-    font-size: 6rem;
+    font-size: 4.3rem;
     font-weight: 600;
+}
+#wave-c{
+    background: linear-gradient(to right,#F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+}
+#tech-c{
+    background: linear-gradient(to right,#F7E93F, #FB09B4, #9100F8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
 }
 .icons{
     text-align: center;
@@ -467,12 +490,13 @@ footer{
     padding-top: 32px;
     padding-bottom: 32px;
 }
-.icons p{
+.icons span{
     color: white;
     padding-left: 2.5px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    opacity: 0.7;
 }
 .icons img{
     padding-left: 40px;
@@ -484,6 +508,7 @@ footer{
 .copyright{
     color: white;
     text-align: center;
+    opacity: 0.7;
 }
 .hide{
     display: none;
@@ -519,7 +544,7 @@ footer{
     0 0 90px 25px rgba(255,255,255,0.18); /* outer glow */
 }
 .box-1, .box-2, .box-3, .box-4, .box-5{
-  animation: softGlow 2.8s ease-in-out infinite;
+  animation: softGlow 2.5s ease-in-out infinite;
 }
 
 @keyframes softGlow{
@@ -641,6 +666,7 @@ footer{
     .why-section {
         padding: 0;
         margin-top: 250px;
+        margin-bottom: 0px;
     }
     .why-section-title h1{
         width: 400px;
@@ -675,7 +701,6 @@ footer{
     }
     .episode-title{
         font-size: 32px;
-        padding-top: 40px;
     }
     .host{
         padding: 0;
@@ -689,11 +714,11 @@ footer{
         padding-bottom: 16px;
     }
     .icons{
-        margin: 0;
-        padding: 0;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows: repeat(2, 99px);
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px 20px;
+        max-width: 260px;
+        margin: 0 auto;
     }
     .name-of-brand{
         text-align: center;
