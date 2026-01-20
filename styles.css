@@ -175,8 +175,8 @@ hr{
     line-height: 20px;
     padding-bottom: 40px;
     margin-left: 250px;
-    width: 700px;
-    border: 1px solid white;
+    width: 900px;
+    margin: 0 auto;
 }
 .hr1{
     margin-bottom: 80px;
@@ -490,6 +490,10 @@ footer{
 
 
 @media screen and (max-width:576px) {
+    .about, .featured-episodes, .host{
+        margin-left: 20px;
+    }
+    
     .navbar{
         width: 440px;
     }
@@ -510,13 +514,27 @@ footer{
         padding: 0;
     }
     .mic-cer{
-
         height: 220px;
         width: 220px;
+    }
+    .bg-mic{
+        width: 80px;
+        height: 80px;
+        padding: 0;
+        margin: 0;
+    }
+    br{
+        display: none;
     }
     .text{
         width: 400px;
         margin: 0 auto;
+    }
+    .new-btn{
+        position: relative;
+        left: 580px;
+        top: -50px;
+        width: 90px;
     }
     .banner{
         background-image: url(images/hero-bg.png);
@@ -536,6 +554,10 @@ footer{
         width: 400px;
         height: 100%;
     }
+    .box-1, .box-2, .box-3, .box-4, .box-5 p{
+        padding-left: 0;
+        padding-right: 0;
+    }
     .about{
         width: 400px;
         margin: 0;
@@ -544,6 +566,7 @@ footer{
     .about-title{
         width: 400px;
         font-size: 32px;
+        margin-left: 20px;
     }
     .about-text{
         text-align: center;
@@ -554,6 +577,7 @@ footer{
     .about-text p{
         width: 400px;
         margin: 0;
+        margin-left: 20px;
     }
     .rating-section{
         display: grid;
@@ -600,10 +624,12 @@ footer{
         position: relative;
         margin-top: 500px;
     }
-    .icon{
+    .icons{
         margin: 0;
         padding: 0;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2, 99px);
     }
     .name-of-brand{
         text-align: center;
@@ -642,9 +668,23 @@ footer{
     .box-2 img, .box-3 img, .box-4 img, .box-5 img {
         padding: 24px 316px 16px 24px;
     }
-    .box-2 p, .box-3 p, .box-4 p, .box-5 p {
+    .box-3 p{
         padding-left: 40px;
-        padding-right: 40px;
+        padding-bottom: 40px;
+        width: 352px;
+    }
+    .box-2 p{
+        /* padding-left: 40px; */
+        padding-bottom: 40px;
+        width: 352px;
+    }
+    .box-4 p{
+        padding-left: 40px;
+        padding-bottom: 40px;
+        width: 352px;
+    }
+    .box-5 p{
+        padding-left: 40px;
         padding-bottom: 40px;
         width: 352px;
     }
