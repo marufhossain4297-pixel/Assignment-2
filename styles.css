@@ -134,6 +134,7 @@ hr{
     align-items: center;
     background: transparent;
     margin-left: 8px;
+    font-family: "Inter", sans-serif;
 }
 .btn-3 img{
     padding-left: 20px;
@@ -194,6 +195,11 @@ hr{
     font-size: 3rem;
     padding-bottom: 40px;
 }
+.box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover {
+    box-shadow: 2px 2px 40px 2px white;
+    cursor: pointer;
+}
+
 .box-container{
     margin: 0 auto;
     width: 1200px;
@@ -220,7 +226,6 @@ hr{
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
-    padding-right: 166px;
 }
 .box-2 img, .box-3 img, .box-4 img, .box-5 img{
     padding-top: 40px;
@@ -267,6 +272,10 @@ hr{
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
+}
+.video-1:hover, .video-2:hover, .video-3:hover{
+    box-shadow: 2px 2px 40px 2px white;
+    cursor: pointer;
 }
 .video{
     width: 380px;
@@ -333,6 +342,10 @@ hr{
     line-height: 24px;
     padding-left: 24px;
 }
+.host-section:hover{
+    box-shadow: 2px 2px 40px 2px white;
+    cursor: pointer;
+}
 .host{
     color: #FFFFFF;
     padding-right: 200px;
@@ -350,7 +363,6 @@ hr{
 .host-section{
     display: flex;
     background-color: #351165;
-    border: 2px solid white;
     border-radius: 40px;
 }
 .host-info{
@@ -365,18 +377,17 @@ hr{
 }
 .host-info p{
     line-height: 24px;
+    padding-bottom: 16px;
 }
-.host-section img{
+.host-image{
     padding: 40px 24px 40px 40px;
 }
-/* .icon{
-    display: flex;
-    gap: 8px;
-    border: 1px solid white;
-    padding: 10px 10px;
-    border-radius: 30px;
-    flex-direction: column;
-} */
+.icon:hover{
+    cursor: pointer;
+}
+.icon{
+    padding-right: 80px;
+}
 .li{
     border: 1px solid white;
     padding: 10px 10px;
@@ -384,22 +395,27 @@ hr{
 }
 .x{
     border: 1px solid white;
-    /* padding: 10px 10px; */
-    /* border-radius: 30px; */
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-left: 8px;
+    width: 20px;
 }
 .i{
     border: 1px solid white;
     padding: 10px 10px;
     border-radius: 30px;
+    margin-left: 8px;
 }
 .yu{
     border: 1px solid white;
     padding: 10px 10px;
     border-radius: 30px;
+    margin-left: 8px;
 }
 .cer{
     position: absolute;
      background: transparent;
+    margin-left: 8px;
 }
 /* footer section styles */
 footer{
@@ -514,4 +530,40 @@ footer{
         align-items: center;
         text-align: center;
     }
+    .featured-section{
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+    }
+    .featured-episodes{
+        padding: 0;
+        margin: 0;
+    }
+    .video-1{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .host-section, .host-info{
+        width: 440px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+
+    }
+    .host{
+        margin: 0;
+        padding: 0;
+    }
+
+
+
+
+
+
+
 }
