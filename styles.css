@@ -9,7 +9,6 @@ body{
 }
 body p{
     color: white;
-    opacity: 0.7;
 }
 .inter-fonts{
   font-family: "Inter", sans-serif;
@@ -122,6 +121,7 @@ hr{
     padding-top: 8px;
     padding-bottom: 24px;
     color: #FFFFFF;
+    opacity: 0.7;
 }
 .btn-2{
     font-size: 16px;
@@ -201,6 +201,7 @@ hr{
     color: white;
     line-height: 20px;
     margin-bottom: 120px;
+    opacity: 0.7;
 }
 .number1{
     color: #00FF88;
@@ -229,7 +230,9 @@ hr{
     box-shadow: 2px 2px 40px 2px white;
     cursor: pointer;
 }
-
+.box-container p{
+    opacity: 0.7;
+}
 .box-container{
     width: 1200px;
 }
@@ -313,7 +316,6 @@ hr{
     gap: 30px;
 }
 .video-1{
-
     width: 380px;
 }
 .video-1, .video-2, .video-3{
@@ -334,6 +336,7 @@ hr{
 .video-1-p{
     line-height: 24px;
     padding-left: 24px;
+    opacity: 0.7;
 }
 .video-1 img{
     padding-left: 24px;
@@ -416,6 +419,7 @@ hr{
 .host-info p{
     line-height: 24px;
     padding-bottom: 16px;
+    opacity: 0.7;
 }
 .host-image{
     padding: 40px 24px 40px 40px;
@@ -587,6 +591,9 @@ footer{
         width: 100%;
         padding: 0;
     }
+    .brand{
+        padding-left: 20px;
+    }
     .mic-cer{
         height: 220px;
         max-width: 220px;
@@ -643,6 +650,7 @@ footer{
         width: 400px;
         font-size: 32px;
         margin-left: 20px;
+        padding-top: 0;
     }
     .about-text{
         text-align: center;
@@ -670,6 +678,7 @@ footer{
     }
     .why-section-title h1{
         width: 400px;
+
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -688,6 +697,9 @@ footer{
         align-items: center;
 
     }
+    .host-section{
+        margin-right: 20px;
+    }
     .video{
         flex-direction: column;
         margin-top: 0px;
@@ -697,7 +709,7 @@ footer{
     }
     .why-section-title h1{ 
         font-size: 32px;
-        padding-top: 40px;
+        margin-top: 40px;
     }
     .episode-title{
         font-size: 32px;
@@ -778,7 +790,7 @@ footer{
         max-width: 352px;
     }
     footer{
-        margin-top: 150px;
+        margin-top: 40px;
     }
 
     @keyframes newPulse{
