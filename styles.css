@@ -328,7 +328,6 @@ hr{
     padding-left: 24px;
 }
 .video-1 img{
-    padding-top: 14px;
     padding-left: 24px;
 }
 .clocks{
@@ -344,6 +343,7 @@ hr{
     padding-top: 12px;
     font-weight: 600;
     padding-left: 6px;
+    padding-bottom: 16px;
 }
 .video-2 h1{
     padding-top: 24px;
@@ -495,7 +495,7 @@ footer{
     }
     
     .navbar{
-        width: 440px;
+        max-width: 440px;
     }
 
     .nav-link, .btn-1{
@@ -515,7 +515,7 @@ footer{
     }
     .mic-cer{
         height: 220px;
-        width: 220px;
+        max-width: 220px;
     }
     .bg-mic{
         width: 80px;
@@ -539,8 +539,9 @@ footer{
     .banner{
         background-image: url(images/hero-bg.png);
         background-position: center;
-        background-size: 100% 50%;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
+        margin-top: 0;
     }
     .box-container{
         grid-template-areas: 
@@ -603,7 +604,7 @@ footer{
         flex-wrap: wrap;
     }
     .host-section, .host-info{
-        width: 400px;
+        max-width: 400px;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -612,17 +613,29 @@ footer{
     }
     .video{
         flex-direction: column;
-        margin-left: 27px;
-        margin-top: 500px;
+        margin-top: 0px;
     }
     .host-info p{
-        width: 352px;
+        max-width: 352px;
+    }
+    .why-section-title h1{ 
+        font-size: 32px;
+        padding-top: 40px;
+    }
+    .episode-title{
+        font-size: 32px;
+        padding-top: 40px;
     }
     .host{
         padding: 0;
         text-align: center;
         position: relative;
-        margin-top: 500px;
+        margin-top: 0px;
+    }
+    .icon{
+        padding-right: 0;
+        padding-right: 16px;
+        padding-bottom: 16px;
     }
     .icons{
         margin: 0;
@@ -646,23 +659,23 @@ footer{
         padding: 24px 316px 16px 44px;
     }
     .box-1{
-        width: 400px;
+        max-width: 400px;
         height: 287px;
     }
     .box-2{
-        width: 400px;
+        max-width: 400px;
         height: 215px;
     }
     .box-3{
-        width: 400px;
+        max-width: 400px;
         height: 215px;
     }
     .box-4{
-        width: 400px;
+        max-width: 400px;
         height: 287px;
     }
     .box-5{
-        width: 400px;
+        max-width: 400px;
         height: 215px;
     }
     .box-2 img, .box-3 img, .box-4 img, .box-5 img {
@@ -671,22 +684,22 @@ footer{
     .box-3 p{
         padding-left: 40px;
         padding-bottom: 40px;
-        width: 352px;
+        max-width: 352px;
     }
     .box-2 p{
         /* padding-left: 40px; */
         padding-bottom: 40px;
-        width: 352px;
+        max-width: 352px;
     }
     .box-4 p{
         padding-left: 40px;
         padding-bottom: 40px;
-        width: 352px;
+        max-width: 352px;
     }
     .box-5 p{
         padding-left: 40px;
         padding-bottom: 40px;
-        width: 352px;
+        max-width: 352px;
     }
     footer{
         margin-top: 150px;
