@@ -215,6 +215,7 @@ hr{
 .why-section-title h1{
     font-size: 3rem;
     padding-bottom: 40px;
+    margin-top: 120px;
 }
 .box-1:hover, .box-2:hover, .box-3:hover, .box-4:hover, .box-5:hover {
     box-shadow: 2px 2px 40px 2px white;
@@ -291,6 +292,7 @@ hr{
     font-weight: bold;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 120px;
 }
 .video-1:hover, .video-2:hover, .video-3:hover{
     box-shadow: 2px 2px 40px 2px white;
@@ -374,11 +376,13 @@ hr{
     padding-right: 200px;
     padding-left: 200px;
     padding-bottom: 200px;
+    margin: 0 auto;
 }
 .host-title{
     text-align: center;
     padding-bottom: 40px;
     margin-top: 48.5px;
+    margin-top: 120px;
 }
 .host-title h1{
     font-size: 3rem;
