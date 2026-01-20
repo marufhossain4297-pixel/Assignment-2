@@ -460,7 +460,9 @@ footer{
     color: white;
     text-align: center;
 }
-
+.hide{
+    display: none;
+}
 
 
 
@@ -530,6 +532,9 @@ footer{
         align-items: center;
         text-align: center;
     }
+    .video{
+        margin-left: 27px;
+    }
     .featured-episodes{
         padding: 0;
         margin: 0;
@@ -544,6 +549,9 @@ footer{
         align-items: center;
 
     }
+    .video{
+        flex-direction: column;
+    }
     .host-info p{
         width: 352px;
     }
@@ -551,13 +559,19 @@ footer{
         margin: 0;
         padding: 0;
         text-align: center;
+        position: relative;
     }
     .icon{
         margin: 0;
         padding: 0;
+        flex-wrap: wrap;
     }
-
-
+    .name-of-brand{
+        text-align: center;
+        padding-top: 40px;
+        font-size: 60px;
+        font-weight: 600;
+    }
 
 
 
